@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+.cabin-font {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+:root {
+  --p-font-family: "Cabin", sans-serif;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  margin: 0;
+  padding: 0;
+}
